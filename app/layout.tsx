@@ -6,8 +6,6 @@ import './globals.css'
 
 import Script from 'next/script' // Add this import
 
-import Script from 'next/script'
-
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
