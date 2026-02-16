@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: 'PlaylistPlus+ | Spotify Ads for Global Brands',
   description: 'Reach millions of listeners on Spotify with targeted advertising campaigns',
   generator: 'v0.app',
+  verification: {
+    google: '2211i-0tGIe-Xurwy-vT8Fa_C7aqnNbnljdRN-De960',
+  },
   keywords: [
     'Spotify Promotions',
     'Spotify advertising',
