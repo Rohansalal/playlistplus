@@ -10,9 +10,9 @@ export function Hero() {
       </p>
 
       <div className="flex gap-5 justify-center flex-wrap">
-        <button className="px-7 py-3 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-sm bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105">
+        <a href="#pricing" className="px-7 py-3 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-sm bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105">
           Start Your Campaign
-        </button>
+        </a>
         <button className="px-7 py-3 rounded-full border-2 border-[#1DB954] bg-transparent text-white font-bold cursor-pointer transition-all duration-300 text-sm hover:bg-[#1DB954] hover:text-[#191414]">
           Learn More
         </button>

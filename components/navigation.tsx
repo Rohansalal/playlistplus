@@ -48,7 +48,7 @@ export function Navigation() {
 
       <div className="hidden md:flex gap-4">
         <a
-          href="https://wa.me/918140774326?text=how%20can%20help%20you"
+          href="https://wa.me/918140774326?text=I%20want%20to%20start%20the%20campaign"
           target="_blank"
           rel="noopener noreferrer"
           className="px-7 py-2.5 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-sm bg-[#25D366] text-white hover:bg-[#1DA851] hover:scale-105 flex items-center gap-2"
@@ -58,9 +58,9 @@ export function Navigation() {
           </svg>
           WhatsApp
         </a>
-        <button className="px-7 py-2.5 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-sm bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105">
+        <a href="#pricing" className="px-7 py-2.5 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-sm bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105">
           Get Started
-        </button>
+        </a>
       </div>
 
       <button

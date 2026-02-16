@@ -2,7 +2,7 @@ export default function PrivacyPage() {
   return (
     <main className="bg-[#191414] text-white py-20 px-6 sm:px-10 min-h-screen">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8 text-center text-[#1DB954]">Spotify Privacy Policy</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-[#1DB954]">PlayListPlus Privacy Policy</h1>
         <p className="mb-4 text-center text-sm text-gray-400">Effective as of 10 October 2024</p>
 
         <section className="mb-8">

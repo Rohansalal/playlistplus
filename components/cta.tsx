@@ -33,12 +33,9 @@ export function CTA() {
           Join thousands of brands already reaching millions of listeners. Get started in minutes.
         </p>
 
-        <button
-          onClick={() => setShowModal(true)}
-          className="px-8 py-3.5 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-base bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105"
-        >
+        <a href="#pricing" className="px-8 py-3.5 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-base bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105">
           Get Started Now
-        </button>
+        </a>
       </section>
 
       {showModal && (
