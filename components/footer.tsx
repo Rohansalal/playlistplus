@@ -20,6 +20,9 @@ export function Footer() {
         <a href="#" className="text-[#B3B3B3] no-underline transition-colors duration-300 hover:text-[#1DB954]">
           Blog
         </a>
+        <a href="https://wa.me/918140774326?text=how%20can%20help%20you" target="_blank" rel="noopener noreferrer" className="text-[#B3B3B3] no-underline transition-colors duration-300 hover:text-[#1DB954]">
+          WhatsApp
+        </a>
       </div>
     </footer>
   );
