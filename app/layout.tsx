@@ -4,6 +4,8 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
+import Script from 'next/script' // Add this import
+
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
@@ -85,7 +87,20 @@ export default function RootLayout({
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
+        <Script id="crisp-chat-script" strategy="lazyOnload">
+          {`
+            window.$crisp=[];
+            window.CRISP_WEBSITE_ID="02a4596c-e2b9-45d2-a323-32ad67ad4b4e";
+            (function(){
+              d=document;s=d.createElement("script");
+              s.src="https://client.crisp.chat/l.js";
+              s.async=1;
+              d.getElementsByTagName("head")[0].appendChild(s);
+            })();
+          `}
+        </Script>
       </body>
     </html>
   )
 }
+
