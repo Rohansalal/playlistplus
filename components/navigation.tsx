@@ -44,6 +44,14 @@ export function Navigation() {
             Case Studies
           </a>
         </li>
+        <li>
+          <a
+            href="/about"
+            className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
+          >
+            About Us
+          </a>
+        </li>
       </ul>
 
       <div className="hidden md:flex gap-4">
@@ -108,6 +116,15 @@ export function Navigation() {
               onClick={() => setIsOpen(false)}
             >
               Case Studies
+            </a>
+          </li>
+          <li>
+            <a
+              href="/about"
+              className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
+              onClick={() => setIsOpen(false)}
+            >
+              About Us
             </a>
           </li>
           <li>

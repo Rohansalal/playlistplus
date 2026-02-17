@@ -13,9 +13,9 @@ export function Hero() {
         <a href="#pricing" className="px-7 py-3 rounded-full border-none font-bold cursor-pointer transition-all duration-300 text-sm bg-[#1DB954] text-[#191414] hover:bg-[#1ed760] hover:scale-105">
           Start Your Campaign
         </a>
-        <button className="px-7 py-3 rounded-full border-2 border-[#1DB954] bg-transparent text-white font-bold cursor-pointer transition-all duration-300 text-sm hover:bg-[#1DB954] hover:text-[#191414]">
-          Learn More
-        </button>
+        <a href="/about" className="px-7 py-3 rounded-full border-2 border-[#1DB954] bg-transparent text-white font-bold cursor-pointer transition-all duration-300 text-sm hover:bg-[#1DB954] hover:text-[#191414]">
+          About Us
+        </a>
       </div>
     </section>
   );

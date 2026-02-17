@@ -1,5 +1,11 @@
+import { Footer } from "../../components/footer";
+import { Navigation } from "../../components/navigation";
 export default function TermsPage() {
   return (
+    <div className="bg-[#191414] text-white min-h-screen flex flex-col">
+          <Navigation />
+          <br />
+          <br />
     <main className="bg-[#191414] text-white py-20 px-6 sm:px-10 min-h-screen">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center text-[#1DB954]">Terms and Conditions</h1>
@@ -62,5 +68,7 @@ export default function TermsPage() {
         </section>
       </div>
     </main>
+    <Footer />
+    </div>
   );
 }

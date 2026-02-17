@@ -83,9 +83,16 @@
 //   );
 // }
 
+import { Footer } from "../../components/footer";
+import { Navigation } from "../../components/navigation";
+
 export default function PrivacyPage() {
   return (
-    <main className="bg-[#191414] text-white py-20 px-6 sm:px-10 min-h-screen">
+    <div className="bg-[#191414] text-white min-h-screen flex flex-col">
+      <Navigation />
+      <br />
+      <br />
+      <main className="flex-grow py-20 px-6 sm:px-10">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-center text-[#1DB954]">PlaylistPlus Privacy Policy</h1>
         <p className="mb-8 text-center text-sm text-gray-400">Last Updated: February 17, 2026</p>
@@ -130,5 +137,7 @@ export default function PrivacyPage() {
         </section>
       </div>
     </main>
+    <Footer />
+    </div>
   );
 }
