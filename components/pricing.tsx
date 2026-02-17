@@ -85,9 +85,11 @@ export function Pricing() {
               ))}
             </ul>
 
+            <a href={"https://wa.me/918140774326?text=" + encodeURIComponent("I want " + plan.name + " plan")} target="_blank" rel="noopener noreferrer">
             <button className="w-full py-3.5 bg-[#1DB954] text-[#191414] border-none rounded-full font-bold text-sm cursor-pointer transition-all duration-300 hover:bg-[#1ed760] hover:scale-105">
               Get Started
             </button>
+            </a>
 
             <div className="flex gap-2 justify-center mt-4 flex-wrap">
               <span className="text-xs px-2.5 py-1 bg-[rgba(29,185,84,0.15)] border border-[rgba(29,185,84,0.3)] rounded-full text-[#1DB954] font-bold">
