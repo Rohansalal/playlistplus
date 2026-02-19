@@ -1,3 +1,4 @@
+import Link from "next/link";
 // export function Footer() {
 //   return (
 //     <footer className="bg-[#282828] px-10 py-10 text-center text-[#B3B3B3] border-t border-[#404040]">
@@ -41,11 +42,13 @@ export function Footer() {
           </div> */}
           <div className="mb-12 flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
   {/* Logo from public folder */}
+  <Link href="/">
   <img
     src="/logo.png"
     alt="PlaylistPlus"
     className="h-10 w-auto"
   />
+  </Link>
 
   {/* Social Icons (unchanged) */}
   <div className="flex gap-4">
@@ -89,23 +92,28 @@ export function Footer() {
             <h3 className="mb-3 text-base font-semibold text-white">Useful Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#markets" className="transition-colors duration-200 hover:text-white">
+                <a href="/#markets" className="transition-colors duration-200 hover:text-white">
                   Markets
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="transition-colors duration-200 hover:text-white">
+                <a href="/#pricing" className="transition-colors duration-200 hover:text-white">
                 Pricing
                 </a>
               </li>
                <li>
-                <a href="#features" className="transition-colors duration-200 hover:text-white">
+                <a href="/#features" className="transition-colors duration-200 hover:text-white">
                 Features
                 </a>
               </li>
                <li>
-                <a href="#case-studies" className="transition-colors duration-200 hover:text-white">
+                <a href="/#case-studies" className="transition-colors duration-200 hover:text-white">
                 Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="/blog" className="transition-colors duration-200 hover:text-white">
+                Blog
                 </a>
               </li>
             </ul>

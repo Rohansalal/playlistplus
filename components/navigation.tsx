@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 
 export function Navigation() {
@@ -8,13 +9,15 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 w-full bg-[rgba(25,20,20,0.95)] backdrop-blur-[10px] px-10 py-5 flex justify-between items-center z-[1000] border-b border-[#404040]">
       <div className="flex items-center">
-        <img src="/logo.png" alt="PlaylistPlus+ Logo" className="h-10" /> 
+        <Link href="/">
+          <img src="/logo.png" alt="PlaylistPlus+ Logo" className="h-10" />
+        </Link>
       </div>
 
       <ul className="hidden md:flex gap-10 list-none">
         <li>
           <a
-            href="#markets"
+            href="/#markets"
             className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
           >
             Markets
@@ -22,7 +25,7 @@ export function Navigation() {
         </li>
         <li>
           <a
-            href="#pricing"
+            href="/#pricing"
             className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
           >
             Pricing
@@ -30,7 +33,7 @@ export function Navigation() {
         </li>
         <li>
           <a
-            href="#features"
+            href="/#features"
             className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
           >
             Features
@@ -38,7 +41,7 @@ export function Navigation() {
         </li>
         <li>
           <a
-            href="#case-studies"
+            href="/#case-studies"
             className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
           >
             Case Studies
@@ -50,6 +53,14 @@ export function Navigation() {
             className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
           >
             About Us
+          </a>
+        </li>
+        <li>
+          <a
+            href="/blog"
+            className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
+          >
+            Blog
           </a>
         </li>
       </ul>
@@ -84,7 +95,7 @@ export function Navigation() {
         <ul className="absolute top-20 left-0 right-0 flex flex-col gap-4 list-none md:hidden bg-[#282828] p-5 border-b border-[#404040]">
           <li>
             <a
-              href="#markets"
+              href="/#markets"
               className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
               onClick={() => setIsOpen(false)}
             >
@@ -93,7 +104,7 @@ export function Navigation() {
           </li>
           <li>
             <a
-              href="#pricing"
+              href="/#pricing"
               className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
               onClick={() => setIsOpen(false)}
             >
@@ -102,7 +113,7 @@ export function Navigation() {
           </li>
           <li>
             <a
-              href="#features"
+              href="/#features"
               className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
               onClick={() => setIsOpen(false)}
             >
@@ -111,7 +122,7 @@ export function Navigation() {
           </li>
           <li>
             <a
-              href="#case-studies"
+              href="/#case-studies"
               className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
               onClick={() => setIsOpen(false)}
             >
@@ -125,6 +136,15 @@ export function Navigation() {
               onClick={() => setIsOpen(false)}
             >
               About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/blog"
+              className="text-[#B3B3B3] no-underline font-medium transition-colors duration-300 hover:text-[#1DB954]"
+              onClick={() => setIsOpen(false)}
+            >
+              Blog
             </a>
           </li>
           <li>

@@ -95,7 +95,7 @@ export default function AboutPage() {
           {/* Hero Section */}
           <div className="text-center mb-20">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="text-[#1DB954]">PlaylistPlus</span>
+              <span className="text-[#1DB954]">PlaylistPlus About US</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
               PlaylistPlus Pvt Ltd stands as a global leader in digital audio solutions, empowering independent artists, labels, and brands with cutting-edge Spotify ad campaigns and the largest UGC playlists on Spotify and Apple Music.
